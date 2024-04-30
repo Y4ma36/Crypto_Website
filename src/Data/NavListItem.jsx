@@ -8,10 +8,6 @@ export const navItems = [
     path: "/prices",
   },
   {
-    title: "News",
-    path: "/news",
-  },
-  {
     title: "About Us",
     path: "/aboutus",
   },

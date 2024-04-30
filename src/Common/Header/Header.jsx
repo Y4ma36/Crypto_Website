@@ -9,8 +9,8 @@ import { RiMenu4Fill } from "react-icons/ri";
 const NavContainer = styled.div`
   height: 6rem;
   padding: 10px 0px;
-
   width: 100%;
+
   @media ${({ theme }) => theme.device.desktop} {
     padding: 10px 35px;
   }
@@ -19,8 +19,24 @@ const NavContainer = styled.div`
 const Nav = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
+  position: relative;
+  @media ${({ theme }) => theme.device.tablet} {
+    justify-content: space-between;
+    margin-right: 100px;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    bottom: -5px;
+    @media ${({ theme }) => theme.device.tablet} {
+      width: 100%;
+    }
+  }
 `;
 
 const NavList = styled.div`
