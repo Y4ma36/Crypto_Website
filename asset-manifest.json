@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Crypto_Website/static/js/main.c5e199b7.js",
+    "static/media/aboutus1.jpeg": "/Crypto_Website/static/media/aboutus1.8838dc335ddeefdba9a4.jpeg",
+    "static/media/logo.png": "/Crypto_Website/static/media/logo.f4006815d1eeece79221.png",
+    "index.html": "/Crypto_Website/index.html",
+    "main.c5e199b7.js.map": "/Crypto_Website/static/js/main.c5e199b7.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c5e199b7.js"
+  ]
+}
