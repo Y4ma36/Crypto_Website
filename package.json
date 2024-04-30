@@ -30,6 +30,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://y4ma36.github.io/Crypto_Website/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -47,7 +48,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://y4ma36.github.io/Crypto_Website/"
-
+  }
 }
